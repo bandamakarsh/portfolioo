@@ -93,6 +93,29 @@ max-width:500px;
 margin:auto;
 border-radius:12px;
 }
+.cert-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #00e676;   /* Bright green */
+    color: black;
+    padding: 14px 28px;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.cert-btn .text {
+    text-decoration: underline;
+}
+
+.cert-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 230, 118, 0.4);
+}
+
 
 .verify{
 display:inline-block;
@@ -107,6 +130,30 @@ font-weight:600;
 /* CONTACT */
 .contact{
 padding:60px 20px;
+}
+/* mail */
+.mail,
+.linkedin {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.mail a,
+.linkedin a {
+    color: white;
+    text-decoration: none;
+}
+
+.mail i,
+.linkedin i {
+    color: white;
+    margin-right: 8px;
+}
+
+.mail a:hover,
+.linkedin a:hover {
+    text-decoration: underline;
 }
 
 table{
